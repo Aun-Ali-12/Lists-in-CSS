@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+img{
+    width: 900px;
+}
+.unordered-list{
+    list-style: circle;
+    font-family: sans-serif;
+}
+.ordered-list{
+list-style-image: url('marker-image.png');
+text-align: right;
+width: 600px;
+}
+.ordered-list > li:nth-child(odd){
+background-color: rgb(167, 127, 127);
+width: 600px;
+}
+ul > li{
+    line-height: 21px;
+}
+header{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  margin: auto;
+  padding: 30px;
+}
+.recipe-details{
+    box-shadow: 3px 3px 20px grey;
+    padding: 5px;
+}
